@@ -1,0 +1,32 @@
+networks:
+  app: 
+    driver: bridge
+
+services:
+  fastapi_chatbot:
+    build: .
+    container_name: fastapi_chatbot
+    ports:
+      - "8000:8000"
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+      - MONGO_URI=mongodb://mongo:27017/chatbot
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      - mongo
+    networks:
+      - app
+
+  mongo:
+    image: mongo:7
+    container_name: mongo
+    ports:
+      - "27020:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - app
+
+volumes:
+  mongo_data:
