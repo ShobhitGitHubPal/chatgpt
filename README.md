@@ -1,4 +1,7 @@
-# 🚀 Fourbrick AI Verse — Chatbot with RAG (ChatGPT-like Clone)
+<img width="1536" height="250" alt="ChatGPT Image Dec 22, 2025, 11_02_23 PM" src="https://github.com/user-attachments/assets/7aadea7a-9a7f-4ee0-a87d-bd810fec4e0d" />
+
+
+ Fourbrick AI Verse — Chatbot with RAG (ChatGPT-like Clone)
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
