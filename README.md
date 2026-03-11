@@ -207,10 +207,4 @@ FastAPI • RAG • LLM • FAISS
 ---
 ⭐ If you find this project useful, give it a star!
 
-### ✅ Next time hum kya kar sakte hain
-- Short README version
-- Enterprise-grade README
-- Architecture PNG diagram
-- Resume-ready project explanation
 
-Jab bolega, tab next step 🚀
